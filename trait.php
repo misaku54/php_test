@@ -32,7 +32,7 @@ class Product{
   }
 }
 
-$product = new Product();
+$product = new Product; //Product()でなくてもよい
 $product->getInformation();
 echo '<br>';
 $product->getProduct();
